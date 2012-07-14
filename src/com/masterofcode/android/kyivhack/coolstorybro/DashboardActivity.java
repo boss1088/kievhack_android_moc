@@ -1,5 +1,6 @@
 package com.masterofcode.android.kyivhack.coolstorybro;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -36,7 +37,7 @@ public class DashboardActivity extends BaseActivity {
     }
 
     public void OnCreateStoryClick(View view) {
-
+        startActivity(new Intent(this, ListAlbumsActivity.class));
     }
 
     public void OnShowStoryClick(View view) {

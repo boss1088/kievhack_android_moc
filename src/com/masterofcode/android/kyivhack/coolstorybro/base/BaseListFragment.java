@@ -2,6 +2,9 @@ package com.masterofcode.android.kyivhack.coolstorybro.base;
 
 import java.util.ArrayList;
 
+import android.content.Intent;
+import android.widget.AdapterView;
+import com.masterofcode.android.kyivhack.coolstorybro.CreateStoryActivity;
 import com.masterofcode.android.kyivhack.coolstorybro.R;
 
 import android.graphics.drawable.Drawable;
@@ -12,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class BaseListFragment extends BaseFragment {
+public class BaseListFragment extends BaseFragment implements AdapterView.OnItemClickListener {
 	
 	private ArrayList<String> elements = null;
 	private ArrayList<Drawable> icons  = null;
@@ -44,7 +47,13 @@ public class BaseListFragment extends BaseFragment {
 		ListView list = (ListView) getReturnView().findViewById(R.id.fragment_list);
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, getElements());
 		list.setAdapter(adapter);
+        list.setOnItemClickListener(this);
 	}
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        startActivity(new Intent(getActivity(), CreateStoryActivity.class));
+    }
 
 	public View getReturnView() {
 		return returnView;

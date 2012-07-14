@@ -25,6 +25,15 @@
                 android:name=".ListAlbumsActivity"
                 android:label="@string/title_activity_dashboard" >
         </activity>
+
+        <activity
+                android:name=".CreateStoryActivity"
+                android:label="@string/title_activity_dashboard" >
+        </activity>
+
     </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

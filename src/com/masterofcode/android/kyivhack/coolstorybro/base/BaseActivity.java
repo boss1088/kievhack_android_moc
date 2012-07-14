@@ -26,7 +26,7 @@ public abstract class BaseActivity extends FragmentActivity {
             putFragment(_fragment);
         }
 	}
-	
+
 	private void putFragment(BaseFragment fragment) {
 		FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 		transaction.replace(R.id.fragment_place, fragment);

@@ -30,12 +30,6 @@ public class DashboardActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_dashboard, menu);
-        return true;
-    }
-
     public void OnCreateStoryClick(View view) {
         startActivity(new Intent(this, ListAlbumsActivity.class));
     }

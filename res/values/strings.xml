@@ -7,5 +7,6 @@
     <string name="create_story">Create Story</string>
     <string name="show_story">Show Story</string>
     <string name="upload">Upload</string>
+    <string name="stop">Stop</string>
 
 </resources>

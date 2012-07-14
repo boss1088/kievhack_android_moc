@@ -24,6 +24,8 @@ public class ListAlbumsActivity extends BaseActivity {
     @Override
     protected BaseFragment addListFragment() {
         BaseListFragment fragment = new BaseListFragment() {};
+
+        //TODO need to get this array list
         ArrayList<String> elements = new ArrayList<String>();
         elements.add("Test Album");
         fragment.setInstance(elements);

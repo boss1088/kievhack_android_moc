@@ -14,11 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22fb9c74-89ae-4374-8dca-7cfbff5a0326" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_upload.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/UploadFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/create_story_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java" />
     </list>
     <ignored path="CoolStoryBro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,46 +95,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ListAlbumsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#816#824#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImageFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0">
+            <state line="2" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1548#1941#0" expanded="true" />
-                <element signature="e#1730#1915#0" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
+                <element signature="e#1488#1881#0" expanded="true" />
+                <element signature="e#1670#1855#0" expanded="true" />
+                <element signature="e#1836#1837#0" expanded="true" />
+                <element signature="e#1870#1871#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_view_pager.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_view_pager.xml">
+      <file leaf-file-name="DashboardFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiveEventItemActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../eclipse-workspace/youversion-android/src/com/youversion/mobile/android/screens/activities/LiveEventItemActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="47" selection-start="4753" selection-end="4971" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="27" column="34" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,11 +123,52 @@
       <file leaf-file-name="CreateStoryActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="34" selection-start="3028" selection-end="3028" vertical-scroll-proportion="0.6619718">
+            <state line="33" column="114" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.54545456">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1645#1653#0" expanded="true" />
+                <element signature="e#2007#2015#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="38" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListAlbumsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="42" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#860#868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_dashboard.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/activity_dashboard.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4" selection-start="70" selection-end="194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_story_menu.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/create_story_menu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="36" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +176,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="79" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0">
+            <state line="34" column="45" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,36 +185,7 @@
       <file leaf-file-name="DashboardActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="4" selection-start="1202" selection-end="1250" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/UploadFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="63" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_upload.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/fragment_upload.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard_fragment.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/dashboard_fragment.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="44" selection-start="0" selection-end="770" vertical-scroll-proportion="0.0">
+            <state line="32" column="3" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,16 +207,18 @@
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/dashboard_fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/fragment_image.xml" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_view_pager.xml" />
         <option value="$PROJECT_DIR$/res/layout/fragment_upload.xml" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/UploadFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/menu/create_story_menu.xml" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" />
       </list>
     </option>
@@ -334,15 +333,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coolstorybro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,6 +348,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -637,7 +632,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32888147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32888147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -704,38 +699,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../backup/youversion-android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="577" column="69" selection-start="23118" selection-end="23256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="40" selection-start="1637" selection-end="1637" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../eclipse-workspace/youversion-android/res/layout/live_item_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="790" vertical-scroll-proportion="0.0">
@@ -747,15 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="35" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#816#824#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,18 +734,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java">
+    <entry file="file://$PROJECT_DIR$/res/menu/activity_dashboard.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="532" selection-end="993" vertical-scroll-proportion="0.0">
+        <state line="1" column="4" selection-start="70" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="45" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/create_story_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="36" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="38" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="42" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#860#868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/UploadFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="63" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+        <state line="23" column="63" selection-start="765" selection-end="765" vertical-scroll-proportion="0.97183096">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,37 +785,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="4" selection-start="1202" selection-end="1250" vertical-scroll-proportion="0.0">
+        <state line="32" column="3" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="79" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="49" column="40" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-0.14084508">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="34" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0">
+        <state line="2" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1548#1941#0" expanded="true" />
-            <element signature="e#1730#1915#0" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1488#1881#0" expanded="true" />
+            <element signature="e#1670#1855#0" expanded="true" />
+            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="e#1870#1871#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="34" selection-start="3028" selection-end="3028" vertical-scroll-proportion="0.6619718">
+        <state line="33" column="114" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.54545456">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1645#1653#0" expanded="true" />
+            <element signature="e#2007#2015#0" expanded="true" />
           </folding>
         </state>
       </provider>

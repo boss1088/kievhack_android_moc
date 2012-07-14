@@ -1,5 +1,6 @@
 package com.masterofcode.android.kyivhack.coolstorybro;
 
+import android.content.Intent;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,11 +8,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseActivity;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseFragment;
 import com.masterofcode.android.kyivhack.coolstorybro.fragments.ImageFragment;
-import com.masterofcode.android.kyivhack.coolstorybro.fragments.UploadFragment;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,7 +32,7 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
     private static String OUTPUT_FILE= "/sdcard/";
     private MediaRecorder recorder;
     String timeStemp = new String();
-    int sizeOfPagerList;
+    ViewPager pager;
 
     @Override
     protected void onCreate(Bundle arg0) {
@@ -42,9 +43,21 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         updateUi();
     }
 
-    //TODO Add upload actions
-    public void OnUpload(View view) {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.create_story_menu, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_stop:
+                stopAllProcces();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     //TODO recieve arrayList of images from previous activity
@@ -64,14 +77,9 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
             fragments.add(fragment);
         }
 
-        UploadFragment uploadFragment = new UploadFragment();
-        fragments.add(uploadFragment);
-
-        sizeOfPagerList = fragments.size();
-
         PagerAdapter pagerAdapter = new FragmentAdapter(this.getSupportFragmentManager(), fragments);
 
-        ViewPager pager = (ViewPager) findViewById(R.id.pager);
+        pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(pagerAdapter);
         pager.setOnPageChangeListener(this);
 
@@ -85,10 +93,6 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
 
     @Override
     public void onPageSelected(int i) {
-        if (i >= sizeOfPagerList-1) {
-            stopAllProcces();
-            return;
-        }
         timeStemp+="["+String.valueOf(i)+","+System.currentTimeMillis()+"],";
     }
 
@@ -171,6 +175,10 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
     private void stopAllProcces() {
         timeStemp+="[0,"+System.currentTimeMillis()+"]]";
         stopRecording();
+
+        //TODO add extras with timestamp and audio path or save there in Preferences
+        startActivity(new Intent(this, UploadActivity.class));
+        finish();
     }
 
     @Override

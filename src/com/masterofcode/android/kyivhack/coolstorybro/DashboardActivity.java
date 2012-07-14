@@ -1,15 +1,11 @@
 package com.masterofcode.android.kyivhack.coolstorybro;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
 import android.view.View;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseActivity;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseFragment;
 import com.masterofcode.android.kyivhack.coolstorybro.fragments.DashboardFragment;
+import com.masterofcode.android.kyivhack.coolstorybro.task.LoadAlbumsAsync;
 
 public class DashboardActivity extends BaseActivity {
 
@@ -31,7 +27,8 @@ public class DashboardActivity extends BaseActivity {
     }
 
     public void OnCreateStoryClick(View view) {
-        startActivity(new Intent(this, ListAlbumsActivity.class));
+        new LoadAlbumsAsync(this).execute();
+
     }
 
     public void OnShowStoryClick(View view) {

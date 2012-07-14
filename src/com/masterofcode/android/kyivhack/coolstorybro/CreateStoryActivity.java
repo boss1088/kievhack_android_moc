@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseActivity;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseFragment;
 import com.masterofcode.android.kyivhack.coolstorybro.fragments.ImageFragment;
+import com.masterofcode.android.kyivhack.coolstorybro.utils.PicasaConnector;
 
 import java.io.File;
 import java.io.IOException;
@@ -60,18 +61,10 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         }
     }
 
-    //TODO recieve arrayList of images from previous activity
     private void updateUi() {
         List<BaseFragment> fragments = new Vector();
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("http://i1.kym-cdn.com/entries/icons/original/000/000/346/969638-cool_story__bro_super.jpg");
-        list.add("http://greginmotion.com/wp-content/uploads/2012/04/03-cool-story-bro.jpg");
-        list.add("http://www.ragetrolling.com/var/albums/Cool%20Story%20Bro.jpg?m=1320018084");
-        list.add("http://bfolder.ru/_ph/1/2/784404742.jpg");
-        list.add("http://rlv.zcache.com/cool_story_bro_hat-p148712027349463815enxqz_400.jpg");
-        list.add("http://static.fjcdn.com/pictures/bro_fc6a7c_783693.jpeg");
 
-        for (String item:list) {
+        for (String item : PicasaConnector.getInstance().getPhotosInUrls()) {
             ImageFragment fragment = new ImageFragment();
             fragment.setInstance(item);
             fragments.add(fragment);

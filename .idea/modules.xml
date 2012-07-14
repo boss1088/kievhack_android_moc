@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Kievhack_android_moc.iml" filepath="$PROJECT_DIR$/Kievhack_android_moc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kievhack_picaso.iml" filepath="$PROJECT_DIR$/Kievhack_picaso.iml" />
     </modules>
   </component>
 </project>

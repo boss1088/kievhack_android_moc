@@ -4,8 +4,7 @@ import android.os.Bundle;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseActivity;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseFragment;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseListFragment;
-
-import java.util.ArrayList;
+import com.masterofcode.android.kyivhack.coolstorybro.utils.PicasaConnector;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,16 +18,15 @@ public class ListAlbumsActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle arg0) {
         super.onCreate(arg0);
+
     }
 
     @Override
     protected BaseFragment addListFragment() {
-        BaseListFragment fragment = new BaseListFragment() {};
+        final BaseListFragment fragment = new BaseListFragment() {};
 
-        //TODO need to get this array list
-        ArrayList<String> elements = new ArrayList<String>();
-        elements.add("Test Album");
-        fragment.setInstance(elements);
+        fragment.setElements(PicasaConnector.getInstance().getAlbumNames());
+
         return fragment;
     }
 

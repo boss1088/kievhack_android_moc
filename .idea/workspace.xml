@@ -12,17 +12,73 @@
       </GlobalState>
     </option>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="22fb9c74-89ae-4374-8dca-7cfbff5a0326" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/create_story_menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/activation.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-analytics-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-analytics-meta-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-appsforyourdomain-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-appsforyourdomain-meta-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-base-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-blogger-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-blogger-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-books-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-books-meta-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-calendar-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-calendar-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-client-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-client-meta-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-codesearch-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-codesearch-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-contacts-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-contacts-meta-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-core-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-docs-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-docs-meta-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-finance-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-finance-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-gtt-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-gtt-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-health-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-health-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-maps-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-maps-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-media-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-photos-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-photos-meta-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-projecthosting-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-projecthosting-meta-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-sidewiki-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-sidewiki-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-sites-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-sites-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-spreadsheet-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-spreadsheet-meta-3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-webmastertools-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-webmastertools-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-youtube-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/gdata-youtube-meta-2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/guava-r07.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jsr305.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/mail.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/PicasaConnectorActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/task/LoadAlbumsAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/task/LoadPhotosAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java" />
     </list>
     <ignored path="CoolStoryBro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,26 +151,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImageFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java">
+      <file leaf-file-name="PicasaConnector.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1488#1881#0" expanded="true" />
-                <element signature="e#1670#1855#0" expanded="true" />
-                <element signature="e#1836#1837#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashboardFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="34" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+            <state line="106" column="22" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1948#1956#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,70 +166,10 @@
       <file leaf-file-name="CreateStoryActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="114" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.54545456">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2007#2015#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="38" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+            <state line="149" column="10" selection-start="4456" selection-end="4456" vertical-scroll-proportion="4.211207">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListAlbumsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="42" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#860#868#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_dashboard.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/activity_dashboard.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="70" selection-end="194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_story_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/create_story_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="36" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="45" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashboardActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="3" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -204,30 +187,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseFragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/dashboard_fragment.xml" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/fragment_image.xml" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_view_pager.xml" />
         <option value="$PROJECT_DIR$/res/layout/fragment_upload.xml" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/UploadFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/menu/create_story_menu.xml" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/PicasaConnectorActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/task/LoadAlbumsAsync.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/task/LoadPhotosAsync.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1368" />
-    <option name="height" value="744" />
+    <option name="width" value="1602" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -255,6 +238,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kievhack_picaso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kievhack_picaso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -269,27 +266,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -303,11 +300,55 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coolstorybro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kievhack_picaso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kievhack_picaso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coolstorybro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kievhack_picaso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -325,80 +366,51 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
+              <option name="myItemId" value="kievhack_picaso" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kievhack_android_moc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="DEBUGGABLE_PROCESS" value="com.masterofcode.android.kyivhack.coolstorybro" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eclipse-workspace/youversion-android/src/com/youversion/mobile/android/screens/activities" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="161c1102415fa457" />
+    <property name="DEBUGGABLE_DEVICE" value="161c1102415fa457" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="DEBUGGABLE_PROCESS" value="com.masterofcode.android.kyivhack.coolstorybro" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="android_2.2_google" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="DEBUGGABLE_DEVICE" value="0A3C233F0601400D" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.masterofcode.android.kyivhack.coolstorybro.task" />
+      <recent name="com.masterofcode.android.kyivhack.coolstorybro" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base" />
       <recent name="$PROJECT_DIR$/res/layout" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.Kievhack_android_moc">
+  <component name="RunManager" selected="Android Application.Kievhack_picaso">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -444,24 +456,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -487,6 +481,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -575,8 +587,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="Kievhack_picaso" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Kievhack_picaso" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Kievhack_android_moc" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.Kievhack_picaso" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -613,29 +645,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <frame x="-1" y="25" width="1602" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39899832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29001367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32888147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21198453" sideWeight="0.6703146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21751025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -699,133 +731,125 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../eclipse-workspace/youversion-android/res/layout/live_item_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="790" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_view_pager.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/PicasaConnectorActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../eclipse-workspace/youversion-android/src/com/youversion/mobile/android/screens/activities/LiveEventItemActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="47" selection-start="4753" selection-end="4971" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dashboard_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="0" selection-end="770" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fragment_upload.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/activity_dashboard.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="70" selection-end="194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="45" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/create_story_menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="38" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
+        <state line="30" column="12" selection-start="960" selection-end="960" vertical-scroll-proportion="0.6228893">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#860#868#0" expanded="true" />
-          </folding>
+        <state line="7" column="34" selection-start="267" selection-end="279" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/UploadFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="63" selection-start="765" selection-end="765" vertical-scroll-proportion="0.97183096">
+        <state line="16" column="13" selection-start="486" selection-end="486" vertical-scroll-proportion="0.31205675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/task/LoadAlbumsAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/DashboardActivity.java">
+    <entry file="jar://$PROJECT_DIR$/libs/gdata-photos-2.0.jar!/com/google/gdata/data/photos/AlbumFeed.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="3" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+        <state line="17" column="67" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.35492957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/ListAlbumsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/task/LoadPhotosAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="61" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="40" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-0.14084508">
+        <state line="55" column="57" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/development/android-sdk-linux/platforms/android-10/android.jar!/java/util/concurrent/FutureTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1268#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java">
+    <entry file="jar://$USER_HOME$/development/android-sdk-linux/platforms/android-10/android.jar!/android/os/AsyncTask.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="34" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="22" selection-start="3197" selection-end="3197" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1948#1956#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/ImageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1488#1881#0" expanded="true" />
-            <element signature="e#1670#1855#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#1870#1871#0" expanded="true" />
-          </folding>
+        <state line="32" column="16" selection-start="853" selection-end="856" vertical-scroll-proportion="-1.7155173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.6465517">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="114" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.54545456">
+        <state line="149" column="10" selection-start="4456" selection-end="4456" vertical-scroll-proportion="4.211207">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2007#2015#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,7 +871,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -882,12 +906,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>CoolStoryBro</last-edited>
+          <last-edited>Kievhack_picaso</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -899,7 +922,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20000002" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -907,7 +930,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>android-support-v4</last-edited>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

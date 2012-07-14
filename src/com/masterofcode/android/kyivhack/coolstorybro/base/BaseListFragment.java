@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.masterofcode.android.kyivhack.coolstorybro.task.LoadPhotosAsync;
 
 public class BaseListFragment extends BaseFragment implements AdapterView.OnItemClickListener {
 	
@@ -52,7 +53,7 @@ public class BaseListFragment extends BaseFragment implements AdapterView.OnItem
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        startActivity(new Intent(getActivity(), CreateStoryActivity.class));
+        new LoadPhotosAsync(getActivity(),i).execute();
     }
 
 	public View getReturnView() {

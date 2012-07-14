@@ -6,5 +6,6 @@
     <string name="title_activity_dashboard">DashboardActivity</string>
     <string name="create_story">Create Story</string>
     <string name="show_story">Show Story</string>
+    <string name="upload">Upload</string>
 
 </resources>

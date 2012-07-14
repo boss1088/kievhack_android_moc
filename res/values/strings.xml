@@ -4,5 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="create_story">Create Story</string>
+    <string name="show_story">Show Story</string>
 
 </resources>

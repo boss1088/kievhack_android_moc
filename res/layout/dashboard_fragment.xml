@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/create_story"
+            android:onClick="OnCreateStoryClick"
+            android:layout_margin="10dip"/>
+
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/show_story"
+            android:onClick="OnShowStoryClick"
+            android:layout_margin="10dip"/>
+
+</LinearLayout>

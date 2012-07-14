@@ -5,13 +5,28 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
+import android.view.View;
+import com.masterofcode.android.kyivhack.coolstorybro.base.BaseActivity;
+import com.masterofcode.android.kyivhack.coolstorybro.base.BaseFragment;
+import com.masterofcode.android.kyivhack.coolstorybro.fragments.DashboardFragment;
 
-public class DashboardActivity extends Activity {
+public class DashboardActivity extends BaseActivity {
+
+    @Override
+    protected BaseFragment addListFragment() {
+        return null;
+    }
+
+    @Override
+    protected BaseFragment addBaseFragment() {
+        DashboardFragment fragment = new DashboardFragment();
+
+        return fragment;
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard);
     }
 
     @Override
@@ -20,5 +35,11 @@ public class DashboardActivity extends Activity {
         return true;
     }
 
-    
+    public void OnCreateStoryClick(View view) {
+
+    }
+
+    public void OnShowStoryClick(View view) {
+
+    }
 }

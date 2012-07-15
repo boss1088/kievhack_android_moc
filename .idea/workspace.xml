@@ -17,13 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22fb9c74-89ae-4374-8dca-7cfbff5a0326" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/apache-mime4j-0.6.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/httpmime-4.0.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/RestClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java" afterPath="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java" />
     </list>
     <ignored path="CoolStoryBro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,19 +103,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UploadActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="79" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateStoryActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="83" selection-start="4553" selection-end="4553" vertical-scroll-proportion="0.0">
+            <state line="165" column="34" selection-start="4952" selection-end="4969" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PicasaConnector.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PicasaConnector.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="0" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.0">
+            <state line="115" column="18" selection-start="3414" selection-end="3414" vertical-scroll-proportion="3.191398">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2019#2027#0" expanded="true" />
@@ -141,10 +126,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RestClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RestClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/RestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.8194726">
+            <state line="28" column="65" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,10 +162,10 @@
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/base/BaseListFragment.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/../presentain/src/com/masterofcode/android/presentain/helpers/RestClient.java" />
-        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java" />
         <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/RestClient.java" />
+        <option value="$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java" />
       </list>
     </option>
   </component>
@@ -654,17 +639,17 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29001367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29001367" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32831737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21198453" sideWeight="0.7099863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21198453" sideWeight="0.67168266" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21751025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -732,16 +717,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/PicasaConnectorActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="56" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3888#3889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/fragments/DashboardFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="486" selection-end="486" vertical-scroll-proportion="-0.10169491">
@@ -814,15 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="83" selection-start="4553" selection-end="4553" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/development/android-sdk-linux/platforms/android-10/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="19" selection-start="2434" selection-end="2434" vertical-scroll-proportion="0.0">
@@ -830,28 +796,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="65" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/UploadActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="79" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
+        <state line="43" column="79" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.37322515">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/development/android-sdk-linux/platforms/android-10/android.jar!/android/media/MediaRecorder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/CreateStoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="165" column="34" selection-start="4952" selection-end="4969" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/PicasaConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="0" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.0">
+        <state line="115" column="18" selection-start="3414" selection-end="3414" vertical-scroll-proportion="3.191398">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2019#2027#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/masterofcode/android/kyivhack/coolstorybro/utils/RestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.8194726">
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

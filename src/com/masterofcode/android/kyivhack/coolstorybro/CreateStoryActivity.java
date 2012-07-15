@@ -62,7 +62,7 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         }
     }
 
-    private void updateUi() {
+        private void updateUi() {
         List<BaseFragment> fragments = new Vector();
 
         for (String item : PicasaConnector.getInstance().getURLPhotosFromAlbum()) {
@@ -135,12 +135,13 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         recorder.setOutputFile(fullName);
         try {
             recorder.prepare();
+            recorder.start();
         } catch (IllegalStateException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        recorder.start();
+
     }
 
     private void createDirectory(){

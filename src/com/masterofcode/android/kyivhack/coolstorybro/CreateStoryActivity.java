@@ -17,7 +17,6 @@ import com.masterofcode.android.kyivhack.coolstorybro.utils.PicasaConnector;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
@@ -34,6 +33,8 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
     private MediaRecorder recorder;
     String timeStemp = new String();
     ViewPager pager;
+
+    String fullName;
 
     @Override
     protected void onCreate(Bundle arg0) {
@@ -64,7 +65,7 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
     private void updateUi() {
         List<BaseFragment> fragments = new Vector();
 
-        for (String item : PicasaConnector.getInstance().getPhotosInUrls()) {
+        for (String item : PicasaConnector.getInstance().getURLPhotosFromAlbum()) {
             ImageFragment fragment = new ImageFragment();
             fragment.setInstance(item);
             fragments.add(fragment);
@@ -118,8 +119,10 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
 
         createDirectory();
 
-        //TODO add unique id
-        File outFile = new File(OUTPUT_FILE+".coolstorybro/"+"id"+"/"+"id"+".3gp");
+        final String curAlbum = PicasaConnector.getInstance().getCurrentAlbumName();
+        fullName = OUTPUT_FILE+".coolstorybro/"+curAlbum+"/"+curAlbum+".3gp";
+
+        File outFile = new File(fullName);
         if(outFile.exists()){
             outFile.delete();
         }
@@ -129,8 +132,7 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         recorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
         recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
 
-        //TODO add unique id
-        recorder.setOutputFile(OUTPUT_FILE+".coolstorybro/"+"id"+"/"+"id"+".3gp");
+        recorder.setOutputFile(fullName);
         try {
             recorder.prepare();
         } catch (IllegalStateException e) {
@@ -147,8 +149,9 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
             outDirectory.mkdir();
         }
 
-        //TODO add unique id
-        outDirectory = new File(OUTPUT_FILE+".coolstorybro"+"/"+"id");
+        final String curAlbum = PicasaConnector.getInstance().getCurrentAlbumName();
+        final String file_name = OUTPUT_FILE+".coolstorybro/"+curAlbum;
+        outDirectory = new File(file_name);
         if((!outDirectory.exists())||(outDirectory.exists()&&!outDirectory.isDirectory())){
             outDirectory.mkdir();
         }
@@ -169,8 +172,11 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         timeStemp+="[0,"+System.currentTimeMillis()+"]]";
         stopRecording();
 
-        //TODO add extras with timestamp and audio path or save there in Preferences
-        startActivity(new Intent(this, UploadActivity.class));
+        Intent intent = new Intent(this, UploadActivity.class);
+        intent.putExtra("timestemp",timeStemp);
+        intent.putExtra("filename",fullName);
+
+        startActivity(intent);
         finish();
     }
 

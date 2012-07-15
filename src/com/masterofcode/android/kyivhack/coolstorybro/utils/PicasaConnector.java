@@ -32,6 +32,9 @@ public class PicasaConnector {
     List<GphotoEntry> albumsList;
     ArrayList<String> urlList;
 
+    private String selectedAlbum;
+    private String selectedAlbumId;
+
     public PicasaConnector(String authToken)
     {
         picasaServ = new PicasawebService("picasa connector service");
@@ -82,6 +85,9 @@ public class PicasaConnector {
         try {
             GphotoEntry album = albumsList.get(index);
 
+            selectedAlbum = album.getTitle().getPlainText();
+            selectedAlbumId = album.getGphotoId();
+
             feedUrl = new URL(PART_PATH + "default/albumid/" + album.getGphotoId());
             AlbumFeed myUserFeed = picasaServ.getFeed(feedUrl, AlbumFeed.class);
 
@@ -102,9 +108,19 @@ public class PicasaConnector {
         }
     }
 
-    public ArrayList<String> getPhotosInUrls()
+    public ArrayList<String> getURLPhotosFromAlbum()
     {
         return urlList;
+    }
+
+    public String getCurrentAlbumName()
+    {
+        return selectedAlbum;
+    }
+
+    public String getCurrentAlbumId()
+    {
+        return selectedAlbumId;
     }
 
     public static PicasaConnector getInstance()

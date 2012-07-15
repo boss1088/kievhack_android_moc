@@ -44,7 +44,7 @@ public class UploadActivity extends BaseActivity {
             jsonObj.put("album_id", PicasaConnector.getInstance().getCurrentAlbumId());
             jsonObj.put("album_name",PicasaConnector.getInstance().getCurrentAlbumName());
 
-            JSONArray jsonArray = new JSONArray(PicasaConnector.getInstance().getURLPhotosFromAlbum());
+            JSONArray jsonArray = new JSONArray(PicasaConnector.getInstance().getURLForBigPhotosFromAlbum());
             jsonObj.put("photos_data",jsonArray);
 
             jsonObj.put("switches_data",timeStemp);
@@ -53,7 +53,7 @@ public class UploadActivity extends BaseActivity {
             e.printStackTrace();
         }
 
-        RestClient.doFileUpload(FULL_URL_STR, fileName, jsonObj);
+        RestClient.doFileUpload(this,FULL_URL_STR, fileName, jsonObj);
     }
 
     @Override

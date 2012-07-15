@@ -1,8 +1,10 @@
 package com.masterofcode.android.kyivhack.coolstorybro.utils;
 
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.os.Handler;
+import android.os.Message;
 import android.text.TextUtils;
-import android.widget.Toast;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpVersion;
@@ -20,18 +22,21 @@ import java.io.File;
 
 public class RestClient {
 
-    public static void doFileUpload(final String url, final String filePath1, final JSONObject jsonObj) {
+    private static ProgressDialog pd;
+
+    public static void doFileUpload(final Context context, final String url, final String filePath1, final JSONObject jsonObj) {
         final File file1 = new File(filePath1);
         if (!TextUtils.isEmpty(url)) {
+
+            pd = ProgressDialog.show(context, "Working...", "Sending data to server",true,false);
+
             Thread thread = new Thread() {
                 public void run() {
                     try {
 
-
-                        HttpClient client = new DefaultHttpClient();
+                         HttpClient client = new DefaultHttpClient();
                         client.getParams().setParameter(CoreProtocolPNames.PROTOCOL_VERSION, HttpVersion.HTTP_1_1);
                         HttpPost post = new HttpPost(url);
-
 
                         post.getParams().setBooleanParameter(CoreProtocolPNames.USE_EXPECT_CONTINUE, false);
 
@@ -49,7 +54,11 @@ public class RestClient {
                             resEntity.consumeContent();
                         }
 
+                        handler.sendEmptyMessage(0);
+
                     } catch (Exception ex) {
+                        if(pd != null && pd.isShowing())
+                            pd.dismiss();
                         ex.printStackTrace();
                     }
                 }
@@ -57,4 +66,13 @@ public class RestClient {
             thread.start();
         }
     }
+
+    final static private Handler handler = new Handler() {
+
+        @Override
+        public void handleMessage(Message msg) {
+                    if(pd != null && pd.isShowing())
+                        pd.dismiss();
+        }
+    };
 }

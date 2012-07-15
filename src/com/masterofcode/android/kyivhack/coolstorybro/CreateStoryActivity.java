@@ -10,6 +10,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseActivity;
 import com.masterofcode.android.kyivhack.coolstorybro.base.BaseFragment;
 import com.masterofcode.android.kyivhack.coolstorybro.fragments.ImageFragment;
@@ -78,7 +79,7 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         pager.setOnPageChangeListener(this);
 
         beginRecording();
-        timeStemp="[[0,"+System.currentTimeMillis()+"],";
+        timeStemp="[[-1,"+System.currentTimeMillis()+"],";
     }
 
     @Override
@@ -87,7 +88,8 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
 
     @Override
     public void onPageSelected(int i) {
-        timeStemp+="["+String.valueOf(i)+","+System.currentTimeMillis()+"],";
+        //f&king magic
+        timeStemp+="["+String.valueOf(i + 1)+","+System.currentTimeMillis()+"],";
     }
 
     @Override
@@ -173,6 +175,8 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
         timeStemp+="[0,"+System.currentTimeMillis()+"]]";
         stopRecording();
 
+        Toast.makeText(CreateStoryActivity.this,"Your data was saved, now you can send it to server",Toast.LENGTH_SHORT).show();
+
         Intent intent = new Intent(this, UploadActivity.class);
         intent.putExtra("timestemp",timeStemp);
         intent.putExtra("filename",fullName);
@@ -189,5 +193,16 @@ public class CreateStoryActivity extends BaseActivity implements ViewPager.OnPag
     @Override
     protected BaseFragment addBaseFragment() {
         return null;
+    }
+
+    protected void onDestroy()
+    {
+        super.onDestroy();
+        if(recorder != null)
+        {
+            //recorder.stop();
+            recorder.release();
+            recorder = null;
+        }
     }
 }

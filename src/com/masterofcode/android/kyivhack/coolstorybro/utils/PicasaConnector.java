@@ -96,6 +96,7 @@ public class PicasaConnector {
                 MediaGroup extension = entry.getExtension(MediaGroup.class);
                 List<MediaContent> repeatingExtension = extension
                         .getRepeatingExtension(MediaContent.class);
+
                 urlList.add(repeatingExtension.get(0).getUrl());
             }
 
@@ -111,6 +112,22 @@ public class PicasaConnector {
     public ArrayList<String> getURLPhotosFromAlbum()
     {
         return urlList;
+    }
+
+    public ArrayList<String> getURLForBigPhotosFromAlbum()
+    {
+        ArrayList<String> list = new ArrayList<String>();
+
+        for (String url : urlList)
+        {
+            int lastSymb = url.lastIndexOf("/");
+            final String fullUrl = url.substring(0, lastSymb);
+            final String fileName = url.substring(lastSymb+1,url.length());
+
+            list.add(fullUrl + "/s1280/" + fileName);
+        }
+
+        return list;
     }
 
     public String getCurrentAlbumName()
